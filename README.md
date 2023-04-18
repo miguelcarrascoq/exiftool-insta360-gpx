@@ -33,6 +33,9 @@ Capturing 360 video with the [Insta360 ONE RS 1' 360 edition](https://www.insta3
 
 ## Pictures
 
+Before run the `exiftool` command, make sure to reference the right file (the file with the name `VID_<YYYYMMDD>_<HHMMSS>_00_<NN>.insv`):
+![right-file-to-get-gps-info](images/right-file-to-get-gps-info.png)
+
 Check GPS data in the 360 video:
 ![check-gps-data-in-video](images/check-gps-data-in-video.png)
 
@@ -43,9 +46,15 @@ Export as .mp4:
 ![export-video360-as-h265](images/export-video360-as-h265.png)
 
 Create .gpx file (warning shows up):
-![bash-warning-truncate](images/bash-warning-truncate.png)
+![some-warnings](images/some-warnings.png)
 
+Check .gpx file (ie: [gpx.studio](https://gpx.studio))
+![gpx.studio](images/gpx.studio.png)
 
 Google Street View Studio upload file (time range warning)
 ![google-street-view-upload-video-01](images/google-street-view-upload-video-01.png)
 ![google-street-view-upload-video-01](images/google-street-view-upload-video-02.png)
+
+
+
+
